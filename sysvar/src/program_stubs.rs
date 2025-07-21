@@ -33,6 +33,11 @@ pub trait SyscallStubs: Sync + Send {
         sol_log("SyscallStubs: sol_remaining_compute_units() defaulting to 0");
         0
     }
+    //CUSTOM
+    fn sol_get_magic_number(&self) -> u64 {
+        sol_log("MAGIC NUMBER DEFAULT TO 0");
+        0
+    }
     fn sol_invoke_signed(
         &self,
         _instruction: &Instruction,
