@@ -136,6 +136,11 @@ pub fn sol_remaining_compute_units() -> u64 {
     SYSCALL_STUBS.read().unwrap().sol_remaining_compute_units()
 }
 
+//CUSTOM
+pub fn sol_get_magic_number() -> u64 {
+    SYSCALL_STUBS.read().unwrap().sol_get_magic_number()
+}
+
 pub fn sol_invoke_signed(
     instruction: &Instruction,
     account_infos: &[AccountInfo],
