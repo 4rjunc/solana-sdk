@@ -482,6 +482,7 @@ pub mod incinerator;
 pub mod instruction;
 pub mod lamports;
 pub mod log;
+pub mod magic_number;
 pub mod program;
 pub mod program_error;
 pub mod secp256k1_program;
