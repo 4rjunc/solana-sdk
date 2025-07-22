@@ -295,8 +295,8 @@ solana-signer = { path = "signer", version = "2.2.1" }
 solana-slot-hashes = { path = "slot-hashes", version = "2.2.1" }
 solana-slot-history = { path = "slot-history", version = "2.2.1" }
 solana-stable-layout = { path = "stable-layout", version = "2.2.1" }
-solana-stake-interface = { path = "/Users/arjunc/Documents/solana/svm/stake/interface", version="1.2.0", feature=["bincode"]} 
-solana-system-interface = { path = "/Users/arjunc/Documents/solana/svm/system/interface", version = "1.0.0" }
+solana-stake-interface = { version = "1.2.1" }
+solana-system-interface = "1.0"
 solana-system-transaction = { path = "system-transaction", version = "2.2.1" }
 solana-sysvar = { path = "sysvar", version = "2.2.1" }
 solana-sysvar-id = { path = "sysvar-id", version = "2.2.1" }
